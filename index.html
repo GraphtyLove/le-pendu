@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Le pendu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body id="myBody">
+
+    <div id="all">
+        <header>
+            <h2 class="pendu">Le pendu</h2>
+        </header>
+        <main>
+            <canvas id="myCanvas" width="500px" height="500px">
+                Canvas is not supported
+            </canvas>
+        </main>
+        <footer>
+            <section class="launch">
+                <button onclick="launch()">Play</button>
+            </section>
+            <section>
+                <h2>Vies restantes: </h2>
+                <p id="lifeScore"> </p>
+            </section>
+            <section>
+                <h2>Mot a trouver :</h2>
+            </section>
+            <section>
+                <div id="word-div" class="container flex-row">
+
+
+                </div>
+                <div id="dash" class="container flex-row">
+
+
+                </div>
+            </section>
+        </footer>
+        <h2>Vous avez deja essaye:</h2>
+        <div id="bad" class="container flex-row">
+
+        </div>
+        <p> </p>
+        <h2></h2>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
